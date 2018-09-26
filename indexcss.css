@@ -4,7 +4,7 @@
 	background-color: rgb(100,150,250);
 	padding: 25px;
 	border-radius: 25px;
-	box-shadow: powderblue;
+	box-shadow: 2px 2px powderblue;
 }
 a{
 	font-size:35px;
@@ -13,12 +13,27 @@ a{
 	padding-top:25px;
 	padding-left: 25px;
 }
-.login{
-	width:150px;
-	height:50px;
-	padding:10px;
+.app{
+	font-size:25px;
+	color: ivory;
+	width:250px;
+	height:70px;
 	border-radius:20px;
 	background-color:teal;
+	text-align: center;
+	padding-top:10px;
+	padding-left: 10px;
+}
+.log{
+font-size:25px;
+	color: ivory;
+	width:150px;
+	height:70px;
+	border-radius:20px;
+	background-color:teal;
+	text-align: center;
+	padding-top:10px;
+	padding-left: 10px;
 }
 body{
 	background-image: url(img.jpg);
@@ -56,7 +71,7 @@ h1{
   text-align: center;
   border-radius: 50px;
 }
-.login:hover{
+.appointment:hover{
 	box-shadow: 5px 5px grey;
 }
 .appointment{
@@ -66,6 +81,6 @@ h1{
 	border-radius:20px;
 	background-color:teal;
 }
-.appointment:hover{
+input:hover{
 	box-shadow: 5px 5px grey;
 }
